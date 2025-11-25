@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_write_to_file",
+          "label": "Verify write_to_file writes content to disk",
+          "description": "Checks that the write_to_file method returns True on success and that the specified file is created with the correct content. Also verifies cleanup behavior."
+        }
+      ]
+    }
+  ]
+}
